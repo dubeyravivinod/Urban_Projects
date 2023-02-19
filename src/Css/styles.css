@@ -1,0 +1,86 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.menus ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menus ul li {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.GridView img {
+    cursor: pointer;
+}
+
+.GridView img:hover {
+    width: 65%;
+    transition-duration: 0.5s;
+}
+
+.enquire {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #596aff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ProjectDiv {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.ProjectDiv h1 {
+    color:  #596aff;
+    font-size: 3rem;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.GridView {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+    row-gap: 5rem;
+    justify-items: center;
+}
+
+.GridView img {
+    width: 60%;
+    height: auto;
+}
+
+.Footer {
+    background-color: #18263b;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: start;
+    margin-top: 50px;
+}
+
+.AboutUs h3,
+.Info h3,
+.Account h3,
+.Contact h3 {
+    color: #64abff;
+}
+
+.AboutUs,
+.Info,
+.Account,
+.Contact {
+    text-align: start;
+    margin: 50px;
+}
